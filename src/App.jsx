@@ -104,7 +104,11 @@ function App() {
 
   const projects = [
     {
+<<<<<<< HEAD
       image: "/images/IMG-20250518-WA0033.jpg",
+=======
+      image: "/IMG-20250518-WA0033.jpg",
+>>>>>>> f034c4f13a0a63b1dc0349be953485aba23974a7
       title: "Commercial Solar Installation",
       description: "200kW solar system installation for manufacturing facility, reducing energy costs by 60% and providing sustainable power generation."
     },

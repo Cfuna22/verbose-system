@@ -104,32 +104,32 @@ function App() {
 
   const projects = [
     {
-      image: "/IMG-20250518-WA0033.jpg",
+      image: "/images/IMG-20250518-WA0033.jpg",
       title: "Commercial Solar Installation",
       description: "200kW solar system installation for manufacturing facility, reducing energy costs by 60% and providing sustainable power generation."
     },
     {
-      image: "../images/IMG-20250518-WA0024.jpg",
+      image: "/images/IMG-20250518-WA0024.jpg",
       title: "Integrated Security System",
       description: "Complete CCTV and access control system for corporate headquarters with 50+ cameras and biometric access points."
     },
     {
-      image: "../images/IMG-20250518-WA0008.jpg",
+      image: "/images/IMG-20250518-WA0008.jpg",
       title: "Smart Building Automation",
       description: "Comprehensive electrical and automation system for modern office complex with energy management and smart controls."
     },
     {
-      image: "../images/IMG-20250518-WA0026.jpg",
+      image: "/images/IMG-20250518-WA0026.jpg",
       title: "Residential Security Package",
       description: "Complete home security solution with wireless CCTV, smart locks, and mobile app integration for remote monitoring."
     },
     {
-      image: "../images/IMG-20250518-WA0016.jpg",
+      image: "/images/IMG-20250518-WA0016.jpg",
       title: "Industrial Power Distribution",
       description: "High-voltage electrical installation and power distribution system for manufacturing plant with backup generators."
     },
     {
-      image: "../images/IMG-20250518-WA0004.jpg",
+      image: "/images/IMG-20250518-WA0004.jpg",
       title: "Off-Grid Solar Solution",
       description: "Complete off-grid solar system with battery storage for remote location, providing 24/7 reliable power supply."
     }
@@ -241,7 +241,7 @@ function App() {
           <div className="text-center">
             <div className="mb-8">
               <img
-                src="../images/ErastusHome.jpg"
+                src="/images/ErastusHome.jpg"
                 alt="Erastus Ochieng"
                 className="w-40 h-40 rounded-full mx-auto object-cover border-4 border-white shadow-lg"
               />

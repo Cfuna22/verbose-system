@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Images</title>
+</head>
+<body>
+    <h1>Image Test</h1>
+    <div id="test"></div>
+    
+    <script>
+        fetch('./images.json')
+            .then(response => response.json())
+            .then(images => {
+                console.log('Images loaded:', images);
+                const testDiv = document.getElementById('test');
+                
+                // Test first 3 images
+                images.slice(0, 3).forEach(imageName => {
+                    const img = document.createElement('img');
+                    img.src = `images/${imageName}`;
+                    img.style.width = '200px';
+                    img.style.height = '200px';
+                    img.style.objectFit = 'cover';
+                    img.style.margin = '10px';
+                    img.alt = imageName;
+                    
+                    img.onload = () => console.log('Loaded:', imageName);
+                    img.onerror = () => console.log('Error loading:', imageName);
+                    
+                    testDiv.appendChild(img);
+                });
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>

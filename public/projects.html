@@ -256,29 +256,12 @@
             
             console.log('Using fallback method...');
             
-            // Complete fallback image list with all 70 images
+            // Fallback image list (hardcoded)
             const fallbackImages = [
-                'ErastusHome.jpg',
-                'IMG-20250518-WA0002.jpg', 'IMG-20250518-WA0003.jpg', 'IMG-20250518-WA0004.jpg', 'IMG-20250518-WA0005.jpg',
-                'IMG-20250518-WA0006.jpg', 'IMG-20250518-WA0007.jpg', 'IMG-20250518-WA0008.jpg', 'IMG-20250518-WA0009.jpg',
-                'IMG-20250518-WA0010.jpg', 'IMG-20250518-WA0011.jpg', 'IMG-20250518-WA0012.jpg', 'IMG-20250518-WA0014.jpg',
-                'IMG-20250518-WA0015.jpg', 'IMG-20250518-WA0016.jpg', 'IMG-20250518-WA0017.jpg', 'IMG-20250518-WA0018.jpg',
-                'IMG-20250518-WA0019.jpg', 'IMG-20250518-WA0020.jpg', 'IMG-20250518-WA0021.jpg', 'IMG-20250518-WA0022.jpg',
-                'IMG-20250518-WA0023.jpg', 'IMG-20250518-WA0024.jpg', 'IMG-20250518-WA0025.jpg', 'IMG-20250518-WA0026.jpg',
-                'IMG-20250518-WA0027.jpg', 'IMG-20250518-WA0028.jpg', 'IMG-20250518-WA0029.jpg', 'IMG-20250518-WA0030.jpg',
-                'IMG-20250518-WA0031.jpg', 'IMG-20250518-WA0032.jpg', 'IMG-20250518-WA0033.jpg', 'IMG-20250518-WA0034.jpg',
-                'IMG-20250518-WA0035.jpg', 'IMG-20250518-WA0036.jpg', 'IMG-20250518-WA0037.jpg', 'IMG-20250518-WA0038.jpg',
-                'IMG-20250518-WA0039.jpg', 'IMG-20250518-WA0040.jpg', 'IMG-20250518-WA0042.jpg', 'IMG-20250518-WA0043.jpg',
-                'IMG-20250518-WA0044.jpg', 'IMG-20250518-WA0045.jpg', 'IMG-20250518-WA0046.jpg', 'IMG-20250518-WA0047.jpg',
-                'IMG-20250518-WA0048.jpg', 'IMG-20250518-WA0049.jpg', 'IMG-20250518-WA0050.jpg', 'IMG-20250518-WA0051.jpg',
-                'IMG-20250518-WA0052.jpg', 'IMG-20250518-WA0053.jpg', 'IMG-20250518-WA0054.jpg', 'IMG-20250518-WA0055.jpg',
-                'IMG-20250518-WA0056.jpg', 'IMG-20250518-WA0057.jpg', 'IMG-20250518-WA0058.jpg',
-                'WhatsApp Image 2026-04-09 at 20.45.02 (1).jpeg', 'WhatsApp Image 2026-04-09 at 20.45.02 (2).jpeg',
-                'WhatsApp Image 2026-04-09 at 20.45.02.jpeg', 'WhatsApp Image 2026-04-09 at 20.45.03 (1).jpeg',
-                'WhatsApp Image 2026-04-09 at 20.45.03.jpeg', 'WhatsApp Image 2026-04-09 at 20.45.07.jpeg',
-                'WhatsApp Image 2026-04-09 at 20.45.08.jpeg',
-                'portfolio1.jpg', 'portfolio2.jpg', 'portfolio3.jpg', 'portfolio4.jpg', 'portfolio5.jpg', 'portfolio6.jpg',
-                'solidity.svg'
+                'IMG-20250518-WA0033.jpg', 'IMG-20250518-WA0024.jpg', 'IMG-20250518-WA0008.jpg',
+                'IMG-20250518-WA0026.jpg', 'IMG-20250518-WA0016.jpg', 'IMG-20250518-WA0004.jpg',
+                'ErastusHome.jpg', 'portfolio1.jpg', 'portfolio2.jpg', 'portfolio3.jpg',
+                'portfolio4.jpg', 'portfolio5.jpg', 'portfolio6.jpg'
             ];
             
             let projectsHTML = '';
@@ -293,7 +276,7 @@
             projectsGrid.innerHTML = projectsHTML;
             document.title = `All Projects (${fallbackImages.length}) - Erastus Ochieng`;
             
-            console.log('Fallback loaded successfully with all images');
+            console.log('Fallback loaded successfully');
         }
 
         // Load images when page loads

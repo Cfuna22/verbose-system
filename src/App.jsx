@@ -73,7 +73,7 @@ function App() {
     {
       icon: <Zap className="w-8 h-8" />,
       title: "Electrical Systems",
-      description: "Complete electrical installation, maintenance, and troubleshooting services for residential, commercial, and industrial properties with certified safety standards and energy efficiency optimization."
+      description: "Complete electical installation, maintenance, and troubleshooting services for residential, commercial, and industrial properties with certified safety standards and energy efficiency optimization."
     },
     {
       icon: <Shield className="w-8 h-8" />,

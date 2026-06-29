@@ -86,7 +86,7 @@ function App() {
       description: "Advanced access control solutions including biometric systems, card readers, electronic locks, and integrated security platforms for buildings, offices, and restricted areas management."
     },
     {
-      icon: <Sun className="w-8 h-8" />,
+      icon: <Sun className="w8 h-8" />,
       title: "Solar Technology",
       description: "Complete solar energy solutions including system design, installation, grid-tie and off-grid systems, battery storage, and renewable energy consultation for sustainable power generation."
     },

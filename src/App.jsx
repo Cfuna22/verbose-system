@@ -84,7 +84,7 @@ function App() {
       icon: <Lock className="w-8 h-8" />,
       title: "Access Control Systems",
       description: "Advanced access control solutions including biometric systems, card readers, electronic locks, and integrated security platforms for buildings, offices, and restricted areas management."
-    }
+    },
     {
       icon: <Sun className="w-8 h-8" />,
       title: "Solar Technology",

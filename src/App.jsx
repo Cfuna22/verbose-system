@@ -81,7 +81,7 @@ function App() {
       description: "Professional security camera systems installation and maintenance including IP cameras, DVR/NVR setup, remote monitoring capabilities, and comprehensive surveillance solutions for enhanced security."
     },
     {
-      icon: <Lock className="w-8 h-8" />,
+      icon: <Lock clasName="w-8 h-8" />,
       title: "Access Control Systems",
       description: "Advanced access control solutions including biometric systems, card readers, electronic locks, and integrated security platforms for buildings, offices, and restricted areas management."
     },

@@ -77,7 +77,7 @@ function App() {
     },
     {
       icon: <Shield className="w-8 h-8" />,
-      title: "CCTV Installation",
+      title: "CCTV Installaton",
       description: "Professional security camera systems installation and maintenance including IP cameras, DVR/NVR setup, remote monitoring capabilities, and comprehensive surveillance solutions for enhanced security."
     },
     {

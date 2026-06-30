@@ -66,7 +66,7 @@ function App() {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
-    setIsMenuOpen(false);
+    setIsMenuOpen(false)
   };
 
   const services = [

@@ -69,7 +69,7 @@ function App() {
     setIsMenuOpen(false);
   };
 
-  const services = [
+  const servics = [
     {
       icon: <Zap className="w-8 h-8" />,
       title: "Electrical Systems",
